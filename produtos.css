@@ -1,0 +1,41 @@
+header{
+    background: #fffec6bb;
+}
+ nav li{
+display:inline;
+margin: 0 0 0 15px;
+ 
+}
+
+
+ nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+ color:black;
+text-transform: uppercase;
+
+}
+
+nav{
+
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.produtos li{
+display: inline-block;
+margin: 0 0 0 60px;
+display: inline-block;
+text-align: center;
+}
+
+.produtos {
+width: 940px;
+margin: 0 auto;
+
+}
+
+
+ 
