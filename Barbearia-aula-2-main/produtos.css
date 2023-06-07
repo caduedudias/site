@@ -1,0 +1,116 @@
+header{
+    background: #fff8d8
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: rgb(158, 103, 0);
+    text-decoration: underline;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background: gray;*/
+    margin: 0 5px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+.produtos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produtos li:hover{
+    border-color: rgb(114, 78, 0);
+    background-color: rgb(221, 221, 221);
+}
+.produtos li:active{
+    border-color: rgb(214, 11, 11); 
+}
+.produtos li:hover h2{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px;
+}
+form label, form p{
+    font-size: 20px;
+    display: block;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+/*
+p{
+    color: blue;
+}
+form p{
+    color: red;
+}
+.teste{
+    color: pink;
+}
+p .teste{
+    color: green;
+}
+#teste{
+    color: gray;
+}
+*\
