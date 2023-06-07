@@ -1,5 +1,5 @@
 header{
-    background: #a0a0a0
+    background: #fff8d8
 }
 nav li{
     display: inline;
@@ -14,7 +14,7 @@ nav a{
 
 }
 nav a:hover{
-    color: rgb(240, 0, 0);
+    color: rgb(158, 103, 0);
     text-decoration: underline;
 }
 nav{
@@ -57,7 +57,7 @@ nav{
     font-size: 18px;
 }
 .produtos li:hover{
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(114, 78, 0);
     background-color: rgb(221, 221, 221);
 }
 .produtos li:active{
@@ -75,3 +75,61 @@ footer{
     color: rgb(255, 255, 255);
     font-size: 13px;
 }
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px;
+}
+form label, form legend{
+    font-size: 20px;
+    display: block;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(168, 109, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s; background:
+
+}
+.enviar:hover{
+    background: rgb(122, 67, 0);
+
+
+
+
+}
+
+/*
+p{
+    color: blue;
+}
+form p{
+    color: red;
+}
+.teste{
+    color: pink;
+}
+p .teste{
+    color: green;
+}
+#teste{
+    color: gray;
+}
+*\
